@@ -1,6 +1,7 @@
 'use strict';
 
-var trapchai = require('..');
+require('..').init();
+
 var chai = require('chai');
 
 module.exports.createTextContext = function (node) {
@@ -24,5 +25,3 @@ module.exports.createTextContext = function (node) {
     }
   };
 };
-
-trapchai.init();
