@@ -1,0 +1,27 @@
+{
+  "name": "trap-chai",
+  "version": "0.0.0",
+  "description": "Chai integration for trap testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielmoore/trap-chai.git"
+  },
+  "keywords": [
+    "node",
+    "trap",
+    "chai",
+    "assert",
+    "assertion",
+    "test"
+  ],
+  "author": "Daniel Moore",
+  "license": "MIT",
+  "peerDependencies": {
+    "trap": ">=0.4",
+    "chai": "1.x"
+  }
+}
